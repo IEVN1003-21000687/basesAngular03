@@ -32,17 +32,19 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               {
-                "glob": "**/*",
+                "glob": "*/",
                 "input": "public"
               }
             ],
             "styles": [
-              "src/styles.css",
-              "node.modules/bootstrap/dist/css/bootstrap.min.css",
-              "node.modules/font-awesome/css/font-awesome.min.css"
+             
+              
             ],
+
             "scripts": [
-              "node.modules/bootstrap/dist/js/bootstrap.min.js"
+
+              
+
             ]
           },
           "configurations": {
@@ -94,15 +96,17 @@
             "tsConfig": "tsconfig.spec.json",
             "assets": [
               {
-                "glob": "**/*",
+                "glob": "*/",
                 "input": "public"
               }
             ],
             "styles": [
-              
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/font-awesome/css/font-awesome.min.css"
             ],
             "scripts": [
-              
+              "node_modules/bootstrap/dist/css/bootstrap.min.js"
             ]
           }
         }
@@ -110,6 +114,6 @@
     }
   },
   "cli": {
-    "analytics": false
+    "analytics": "ab3f513a-7314-4043-a031-557cfe4a0294"
   }
 }

@@ -1,0 +1,30 @@
+    <form>
+        <div class="col-6">
+            <div class="mb-3">
+
+                <div class="form-group pt-4">
+                    <label for="form-label">Numero 1</label>
+                    <input type="" class="form-control" [(ngModel)]="num1" name="num1"
+                    id="exampleInpuEmail" aria-describedby="emailHelp" placeholder="Enter numero 1">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Numero 2</label>
+                    <input type="" class="form-control" [(ngModel)]="num2" name="num2"
+                    id="exampleInputPassword1" placeholder="Enter numero 2">
+                </div>
+                <hr>
+                <input type="radio" (click)="sumar()" class="btn btn-primary" name="btn"><label for="">+</label>
+                <input type="radio" (click)="restar()" class="btn btn-primary" name="btn"><label for="">-</label>
+                <input type="radio" (click)="multiplicar()" class="btn btn-primary" name="btn"><label for="">x</label>
+                <input type="radio" (click)="dividir()" class="btn btn-primary" name="btn"><label for="">/</label>
+                
+            
+
+            </div>
+            <div class="col-6">
+                <h1>Tu resultado es: {{resultado}}</h1>
+            </div>
+            
+      </div>
+    </form>
+
